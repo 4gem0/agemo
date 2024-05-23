@@ -1,4 +1,8 @@
--- Custom Defensive Bot Strategy
+-- Defensive Bot Strategy
+-- This bot employs a defensive strategy designed to prioritize survival and resource management.
+-- It automatically heals when health is low, uses shields when energy is high, gathers energy when reserves are low, and evades opponents if surrounded.
+-- The bot also communicates with teammates to coordinate defensive actions and moves randomly if no immediate defensive action is needed.
+
 
 -- Initialize global variables
 local CurrentGameState = CurrentGameState or {}
